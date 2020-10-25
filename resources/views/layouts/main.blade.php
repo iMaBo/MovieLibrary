@@ -7,7 +7,9 @@
     <title>Movie App</title>
 
     <link rel="stylesheet" href="/css/main.css">
-    @livewireStyles()
+    @livewireStyles
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
 </head>
 <body class="font-sans bg-gray-900 text-white">
@@ -38,6 +40,6 @@
         </div>
     </nav>
     @yield('content')
-    @livewireScripts()
+    @livewireScripts
 </body>
 </html>
