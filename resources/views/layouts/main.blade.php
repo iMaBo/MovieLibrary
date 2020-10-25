@@ -7,7 +7,7 @@
     <title>Movie App</title>
 
     <link rel="stylesheet" href="/css/main.css">
-    @livewireStyles
+    @livewireStyles()
 
 </head>
 <body class="font-sans bg-gray-900 text-white">
@@ -38,6 +38,6 @@
         </div>
     </nav>
     @yield('content')
-    @livewireScripts
+    @livewireScripts()
 </body>
 </html>
